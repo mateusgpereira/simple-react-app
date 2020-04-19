@@ -1,0 +1,14 @@
+header {
+	align-items: center;
+	background-color: #0080ff;
+	color: #FFF;
+	display: flex;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 60px;
+	justify-content: space-between;
+	padding: 20px 40px 0px;
+}
+
+.header-icon{
+	margin: 0px 5px;
+}

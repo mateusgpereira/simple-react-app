@@ -28,10 +28,12 @@ module.exports = {
     "class-methods-use-this": "off",
     "no-param-reassign": "off",
     "camelcase": "off",
-        "no-unused-vars": ["error", { "argsIgnorePattern": "next"}],
-        "consistent-return": "off",
-        "max-len": ["error", { "code": 90 }],
-        "no-restricted-globals": "off",
-    "prettier/prettier": "error"
+    "no-unused-vars": ["error", { "argsIgnorePattern": "next"}],
+    "consistent-return": "off",
+    "max-len": ["error", { "code": 90 }],
+	"no-restricted-globals": "off",
+	"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+	"react/jsx-indent": [2,'tab'],
+    "prettier/prettier": ["error"]
   },
 };
