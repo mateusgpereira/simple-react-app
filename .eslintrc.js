@@ -36,6 +36,7 @@ module.exports = {
 	"no-restricted-globals": "off",
 	"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
 	"react/jsx-indent": [2,'tab'],
+	"react/destructuring-assignment": ["off"],
     "prettier/prettier": ["error"]
   },
 };

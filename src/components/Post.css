@@ -1,0 +1,56 @@
+.box--post {
+	background-color: #FFF;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 3px 1px lightgray;
+	-moz-box-shadow: 0px 0px 3px 1px lightgray;
+	box-shadow: 0px 0px 3px 1px lightgray;
+	margin-bottom: 20px;
+	padding: 20px;
+	width: 760px;
+}
+
+.box--post img {
+	border-radius: 50%;
+	width: 30px;
+}
+
+.box--post > div > p {
+	color: #444;
+	font-size: 14px;
+	font-weight: 450;
+	line-height: 20px;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+.post--header {
+	align-items: center;
+	display: flex;
+	justify-content: left;
+}
+
+.post--header p {
+	font-size: 14px;
+	line-height: 14px;
+	margin-left: 10px;
+}
+
+.post--header p .user {
+	color: #595959;
+	font-weight: 700;
+}
+
+.post--header p .date {
+	font-size: x-small;
+	font-weight: 600;
+	color: #bfbfbf;
+}
+
+.divider {
+	border: 0;
+    border-top: 1.5px solid #f2f2f2;
+	display: block;
+    height: 1px;
+    margin: 1em 0;
+    padding: 0;
+}

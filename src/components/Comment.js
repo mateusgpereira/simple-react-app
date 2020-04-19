@@ -1,15 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import './Comment.css'
 
 const Comment = ({ data }) => {
 	return (
-		<div>
+		<div className="comment--wrapper">
 			<img src={data.author.avatar} alt="avatar" />
-			<p>
-				<strong>{data.author.name}</strong>
-
-				{data.content}
-			</p>
+			<div className="comment--box">
+				<p>
+					<strong>{data.author.name}</strong>
+					&nbsp;
+					{data.content}
+				</p>
+			</div>
 		</div>
 	)
 }
